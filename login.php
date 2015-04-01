@@ -134,7 +134,7 @@ Password<span style="color:red">*</span><br><br>
 <?php
 echo "working";
 
-$conn = mysql_connect("fdb13.biz.nf", "1814924_tup", "tuplacements123") or die("error connecting");
+$conn = mysql_connect("localhost", "root", "") or die("error connecting");
 echo "working2";
 mysql_select_db("1814924_tup")or die("database couldnot connect");
 echo "working3";
