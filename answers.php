@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST["like"])){
-  $conn = mysqli_connect("fdb13.biz.nf", "1814924_tup", "tuplacements123", "1814924_tup");
+  $conn = mysqli_connect("localhost", "root", "", "test");
   $id = $_POST["like"];
   $sql = "SELECT * FROM answers WHERE id=$id";
     $query = mysqli_query($conn, $sql); 

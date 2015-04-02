@@ -146,7 +146,7 @@ echo '">';
 echo '<div style="padding:30px;margin:30px;">';
 
 	$i = 1;
-	$conn = mysqli_connect("fdb13.biz.nf", "1814924_tup", "tuplacements123", "1814924_tup");
+	$conn = mysqli_connect("localhost", "root", "", "test");
 	if($_GET['y']==1)
 		$sql = "select * from c where id between 28 and 52";
 	else if($_GET['y']==2)

@@ -134,7 +134,7 @@ text-align:center;}
        </div>
 <div>
 <?php
-	$conn = mysqli_connect("fdb13.biz.nf", "1814924_tup", "tuplacements123", "1814924_tup");
+	$conn = mysqli_connect("localhost", "root", "", "test");
 	$sql = "select * from mockpapers";
   $query = mysqli_query($conn, $sql);
 	while($row = mysqli_fetch_array($query))

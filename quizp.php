@@ -147,7 +147,7 @@ echo '">';
 echo '<div style="padding:30px;margin:30px;">';
 
 	$i = 1;
-	$conn = mysqli_connect("fdb13.biz.nf", "1814924_tup", "tuplacements123", "1814924_tup");
+	$conn = mysqli_connect("localhost", "root", "", "test");
 	if($_GET['p']==1)
 		$sql = "select * from cpp where id between 1 and 25";
 	else if($_GET['p']==2)
